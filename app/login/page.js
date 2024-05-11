@@ -21,7 +21,7 @@ const LoginPage = () => {
               </Link>
             </p>
           </div>
-          <div className="card shrink-0 w-full max-w-md shadow-2xl bg-base-100">
+          <div className="card shrink-0 w-full max-w-lg shadow-2xl bg-base-100">
             <LoginForm />
           </div>
         </div>
