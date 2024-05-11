@@ -4,7 +4,7 @@ import Link from "next/link";
 const RegisterPage = () => {
   return (
     <>
-      <div className="hero custom-min-h bg-[url('/assets/images/register-bg.jpg')]">
+      <div className="hero custom-min-h bg-[url('/assets/images/register-bg.webp')]">
         <div className="hero-overlay bg-opacity-80"></div>
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="text-center lg:text-left text-base-100 ">
