@@ -15,7 +15,7 @@ const LoginPage = () => {
               booking experiences awaiting you.
             </p>
             <p>
-              If you are new here, the please{" "}
+              If you are new here, then please{" "}
               <Link href={`/register`} className="underline underline-offset-2">
                 create new account
               </Link>
