@@ -1,5 +1,6 @@
 import { Rubik } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/global/navigation/Navbar";
 
 const font = Rubik({
   subsets: ["latin"],
@@ -14,7 +15,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={font.className}>{children}</body>
+      <body className={font.className}>
+        <Navbar>{children}</Navbar>
+      </body>
     </html>
   );
 }
