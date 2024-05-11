@@ -9,7 +9,7 @@ const LoginPage = () => {
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="text-center lg:text-left text-base-100">
             <h1 className="lg:text-5xl text-4xl font-bold">Welcome Back!</h1>
-            <p className="py-6">
+            <p className="py-6 text-sm md:text-base">
               It&apos;s wonderful to see you return to InnSight. Rediscover the
               comfort and convenience you love with exclusive deals and seamless
               booking experiences awaiting you.
