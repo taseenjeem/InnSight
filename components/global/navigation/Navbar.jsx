@@ -6,8 +6,8 @@ const Navbar = ({ children }) => {
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         {/* Navbar */}
-        <div className="w-full bg-base-100 container sticky top-0 z-50">
-          <div className="w-full navbar z-50">
+        <div className="w-full bg-base-200 sticky top-0 z-50">
+          <div className="w-full navbar container z-50">
             <div className="flex-1 px-2 mx-2 lg:flex">
               <Link href={`/`} className="text-xl font-semibold btn btn-ghost">
                 InnSight
